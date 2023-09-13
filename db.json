@@ -8,16 +8,6 @@
       "startDate": "2023-08-18",
       "endDate": "2023-08-19",
       "status": "Completed",
-      "teamMembers": [
-        {
-          "agentId": 1,
-          "name": "John"
-        },
-        {
-          "agentId": 2,
-          "name": "Greg"
-        }
-      ],
       "tasks": [
         {
           "id": 1,
@@ -71,12 +61,6 @@
       "startDate": "2023-08-18",
       "endDate": "2023-08-19",
       "status": "Delay",
-      "teamMembers": [
-        {
-          "agentId": 1,
-          "name": "John"
-        }
-      ],
       "tasks": [
         {
           "id": 1,
@@ -94,17 +78,7 @@
       "metadesc": "Create a comprehensive email marketting",
       "startDate": "2023-08-25",
       "endDate": "2023-08-26",
-      "status": "Pending",
-      "teamMembers": [
-        {
-          "agentId": 2,
-          "name": "Greg"
-        },
-        {
-          "agentId": 3,
-          "name": "Alex"
-        }
-      ]
+      "status": "Pending"
     },
     {
       "id": 4,
@@ -113,30 +87,21 @@
       "metadesc": "Creation of App Landing ui",
       "startDate": "2023-08-30",
       "endDate": "2023-09-26",
-      "status": "Pending",
-      "teamMembers": [
-        {
-          "agentId": 1,
-          "name": "John"
-        },
-        {
-          "agentId": 4,
-          "name": "Dave"
-        },
-        {
-          "agentId": 5,
-          "name": "Amanda"
-        },
-        {
-          "agentId": 2,
-          "name": "Greg"
-        }
-      ]
+      "status": "Pending"
+    },
+    {
+      "id": 5,
+      "name": "App Landing Ui 2",
+      "desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi quia debitis soluta voluptatem. Quod fugiat tempora beatae voluptatibus similique perferendis nulla libero, voluptates sunt. Praesentium fugit quia enim ipsum provident.",
+      "metadesc": "Creation of App Landing ui",
+      "startDate": "2023-08-30",
+      "endDate": "2023-09-26",
+      "status": "Pending"
     }
   ],
   "agents": [
     {
-      "agentId": 1,
+      "id": 1,
       "name": "John",
       "email": "john@email.com",
       "agentType": "Human",
@@ -144,7 +109,7 @@
       "projects": 2
     },
     {
-      "agentId": 2,
+      "id": 2,
       "name": "Greg",
       "email": "greg@email.com",
       "agentType": "Human",
@@ -152,7 +117,7 @@
       "projects": 4
     },
     {
-      "agentId": 3,
+      "id": 3,
       "name": "Alex",
       "email": "alex@email.com",
       "agentType": "Human",
@@ -160,7 +125,7 @@
       "projects": 5
     },
     {
-      "agentId": 4,
+      "id": 4,
       "name": "Dave",
       "email": "dave@email.com",
       "agentType": "Human",
@@ -168,7 +133,7 @@
       "projects": 1
     },
     {
-      "agentId": 5,
+      "id": 5,
       "name": "Amanda",
       "email": "amanda@email.com",
       "agentType": "Human",
@@ -176,7 +141,7 @@
       "projects": 4
     },
     {
-      "agentId": 6,
+      "id": 6,
       "name": "Frank",
       "email": "frank@email.com",
       "agentType": "Human",
@@ -184,11 +149,11 @@
       "projects": 0
     },
     {
-      "agentId": 7,
+      "id": 7,
       "name": "Mark",
       "email": "mark@email.com",
-      "agentType": "Human",
-      "skills": ["Ruby", "Javascript"],
+      "agentType": "Bot",
+      "skills": [],
       "projects": 0
     }
   ],
@@ -228,6 +193,68 @@
       "trigger": "Received multiple customer complaints",
       "barriers": "Legacy code integration,Limited server capacity",
       "context": "Developing a web-based CRM software"
+    }
+  ],
+  "project-users": [
+    {
+      "id": 1,
+      "projectId": 1,
+      "agentId": 1
+    },
+    {
+      "id": 2,
+      "projectId": 1,
+      "agentId": 2
+    },
+    {
+      "id": 3,
+      "projectId": 1,
+      "agentId": 4
+    },
+    {
+      "id": 4,
+      "projectId": 2,
+      "agentId": 1
+    },
+    {
+      "id": 5,
+      "projectId": 3,
+      "agentId": 2
+    },
+    {
+      "id": 6,
+      "projectId": 3,
+      "agentId": 3
+    },
+    {
+      "id": 7,
+      "projectId": 4,
+      "agentId": 1
+    },
+    {
+      "id": 8,
+      "projectId": 4,
+      "agentId": 4
+    },
+    {
+      "id": 9,
+      "projectId": 4,
+      "agentId": 5
+    },
+    {
+      "id": 10,
+      "projectId": 4,
+      "agentId": 2
+    },
+    {
+      "id": 10,
+      "projectId": 5,
+      "agentId": 7
+    },
+    {
+      "id": 11,
+      "projectId": 5,
+      "agentId": 5
     }
   ]
 }
