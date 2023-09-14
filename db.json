@@ -7,51 +7,7 @@
       "metadesc": "Design a logo with brand colors",
       "startDate": "2023-08-18",
       "endDate": "2023-08-19",
-      "status": "Completed",
-      "tasks": [
-        {
-          "id": 1,
-          "title": "Brand website Article",
-          "type": "Website",
-          "agent": "Greg",
-          "status": "Pending"
-        },
-        {
-          "id": 2,
-          "title": "Brand Twitter Post",
-          "type": "Twitter",
-          "agent": "John",
-          "status": "Completed"
-        },
-        {
-          "id": 3,
-          "title": "Brand Instagram Post",
-          "type": "Instagram",
-          "agent": "John",
-          "status": "Pending"
-        },
-        {
-          "id": 4,
-          "title": "Brand website Article 2",
-          "type": "Website",
-          "agent": "Greg",
-          "status": "Pending"
-        },
-        {
-          "id": 5,
-          "title": "Brand Twitter Post 2",
-          "type": "Twitter",
-          "agent": "John",
-          "status": "Waiting"
-        },
-        {
-          "id": 6,
-          "title": "Brand Instagram Post 2",
-          "type": "Instagram",
-          "agent": "John",
-          "status": "Waiting"
-        }
-      ]
+      "status": "Completed"
     },
     {
       "id": 2,
@@ -60,16 +16,7 @@
       "metadesc": "Landing Page Design restructuring",
       "startDate": "2023-08-18",
       "endDate": "2023-08-19",
-      "status": "Delay",
-      "tasks": [
-        {
-          "id": 1,
-          "title": "Landing Page website article",
-          "type": "Website",
-          "agent": "John",
-          "status": "Completed"
-        }
-      ]
+      "status": "Delay"
     },
     {
       "id": 3,
@@ -105,56 +52,49 @@
       "name": "John",
       "email": "john@email.com",
       "agentType": "Human",
-      "skills": ["Php", "Java", "Ruby"],
-      "projects": 2
+      "skills": ["Php", "Java", "Ruby"]
     },
     {
       "id": 2,
       "name": "Greg",
       "email": "greg@email.com",
       "agentType": "Human",
-      "skills": ["Html", "Css", "Javascript", "Reactjs"],
-      "projects": 4
+      "skills": ["Html", "Css", "Javascript", "Reactjs"]
     },
     {
       "id": 3,
       "name": "Alex",
       "email": "alex@email.com",
       "agentType": "Human",
-      "skills": ["Photoshop", "Illustrator"],
-      "projects": 5
+      "skills": ["Photoshop", "Illustrator"]
     },
     {
       "id": 4,
       "name": "Dave",
       "email": "dave@email.com",
       "agentType": "Human",
-      "skills": ["Java", "Ruby"],
-      "projects": 1
+      "skills": ["Java", "Ruby"]
     },
     {
       "id": 5,
       "name": "Amanda",
       "email": "amanda@email.com",
       "agentType": "Human",
-      "skills": ["Java", "Ruby", "Css"],
-      "projects": 4
+      "skills": ["Java", "Ruby", "Css"]
     },
     {
       "id": 6,
       "name": "Frank",
       "email": "frank@email.com",
       "agentType": "Human",
-      "skills": ["Reactjs", "Javascript", "Java"],
-      "projects": 0
+      "skills": ["Reactjs", "Javascript", "Java"]
     },
     {
       "id": 7,
       "name": "Mark",
       "email": "mark@email.com",
       "agentType": "Bot",
-      "skills": [],
-      "projects": 0
+      "skills": []
     }
   ],
   "audience": [
@@ -193,6 +133,57 @@
       "trigger": "Received multiple customer complaints",
       "barriers": "Legacy code integration,Limited server capacity",
       "context": "Developing a web-based CRM software"
+    }
+  ],
+  "tasks": [
+    {
+      "id": 1,
+      "title": "Brand website Article",
+      "type": "Website",
+      "agent": 1,
+      "status": "Pending"
+    },
+    {
+      "id": 2,
+      "title": "Brand Twitter Post",
+      "type": "Twitter",
+      "agent": 2,
+      "status": "Completed"
+    },
+    {
+      "id": 3,
+      "title": "Brand Instagram Post",
+      "type": "Instagram",
+      "agent": 4,
+      "status": "Pending"
+    },
+    {
+      "id": 4,
+      "title": "Brand website Article 2",
+      "type": "Website",
+      "agent": 1,
+      "status": "Pending"
+    },
+    {
+      "id": 5,
+      "title": "Brand Twitter Post 2",
+      "type": "Twitter",
+      "agent": 1,
+      "status": "Waiting"
+    },
+    {
+      "id": 6,
+      "title": "Brand Instagram Post 2",
+      "type": "Instagram",
+      "agent": 4,
+      "status": "Waiting"
+    },
+    {
+      "id": 7,
+      "title": "Landing Page website article",
+      "type": "Website",
+      "agent": 1,
+      "status": "Completed"
     }
   ],
   "project-users": [
@@ -249,12 +240,49 @@
     {
       "id": 10,
       "projectId": 5,
-      "agentId": 7
+      "agentId": 6
     },
     {
       "id": 11,
       "projectId": 5,
       "agentId": 5
+    }
+  ],
+  "project-tasks": [
+    {
+      "id": 1,
+      "projectId": 1,
+      "taskId": 1
+    },
+    {
+      "id": 2,
+      "projectId": 1,
+      "taskId": 2
+    },
+    {
+      "id": 3,
+      "projectId": 1,
+      "taskId": 3
+    },
+    {
+      "id": 4,
+      "projectId": 1,
+      "taskId": 4
+    },
+    {
+      "id": 5,
+      "projectId": 1,
+      "taskId": 5
+    },
+    {
+      "id": 6,
+      "projectId": 1,
+      "taskId": 6
+    },
+    {
+      "id": 7,
+      "projectId": 2,
+      "taskId": 7
     }
   ]
 }
