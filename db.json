@@ -95,6 +95,13 @@
       "email": "mark@email.com",
       "agentType": "Bot",
       "skills": []
+    },
+    {
+      "name": "Bot",
+      "email": "bot@email.com",
+      "agentType": "Bot",
+      "skills": ["Javascript"],
+      "id": 8
     }
   ],
   "audience": [
@@ -138,54 +145,55 @@
   "tasks": [
     {
       "id": 1,
-      "title": "Brand website Article",
+      "topic": "Brand website Article",
       "type": "Website",
       "agent": 1,
       "status": "Pending"
     },
     {
       "id": 2,
-      "title": "Brand Twitter Post",
+      "topic": "Brand Twitter Post",
       "type": "Twitter",
       "agent": 2,
       "status": "Completed"
     },
     {
       "id": 3,
-      "title": "Brand Instagram Post",
+      "topic": "Brand Instagram Post",
       "type": "Instagram",
       "agent": 4,
       "status": "Pending"
     },
     {
       "id": 4,
-      "title": "Brand website Article 2",
+      "topic": "Brand website Article 2",
       "type": "Website",
       "agent": 1,
       "status": "Pending"
     },
     {
       "id": 5,
-      "title": "Brand Twitter Post 2",
+      "topic": "Brand Twitter Post 2",
       "type": "Twitter",
       "agent": 1,
       "status": "Waiting"
     },
     {
       "id": 6,
-      "title": "Brand Instagram Post 2",
+      "topic": "Brand Instagram Post 2",
       "type": "Instagram",
       "agent": 4,
       "status": "Waiting"
     },
     {
       "id": 7,
-      "title": "Landing Page website article",
+      "topic": "Landing Page website article",
       "type": "Website",
       "agent": 1,
       "status": "Completed"
     }
   ],
+  "deliverables": [],
   "project-users": [
     {
       "id": 1,
@@ -284,5 +292,6 @@
       "projectId": 2,
       "taskId": 7
     }
-  ]
+  ],
+  "task-deliverables": []
 }
